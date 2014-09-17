@@ -1,0 +1,6 @@
+---
+- name: Test Connection to remote grpups pc
+  hosts: remote
+  tasks:
+    - name: test connection
+      ping:

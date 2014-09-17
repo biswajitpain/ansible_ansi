@@ -1,5 +1,5 @@
 ---
-- name: Test Connection to remote grpups pc
+- name: Test Connection to remote groups hosts
   hosts: remote
   tasks:
     - name: test connection
